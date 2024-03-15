@@ -1,5 +1,5 @@
 REM Title: WiFi Passwords Extractor
-REM Author David G.
+REM Author David G. | IT Solutions Network
 REM Target: Windows 10 and 11
 REM Original: https://github.com/dgodibadze/flipperzero/blob/153825f6b86546cb2e46a77e292a4932c5b22904/list_win_wifi_pass.txt
 REM THIS IS FOR AUTHORIZED USE ON MACHINES YOU EITHER OWN OR HAVE BEEN GIVEN ACCESS TO PEN TEST, DAVID G. IS NOT LIABLE FOR ANY MISUSE OF THIS SCRIPT
