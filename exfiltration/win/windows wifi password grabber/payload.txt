@@ -2,7 +2,7 @@ REM Title: Saved SSID and Passwords Lister
 REM Tested OS: Windows 11
 REM Tested privileged: Administrator
 REM Tested Flipper Zero on Momentum Firmware
-REM Version: 
+
 
 REM Educational Use Only – This tool is provided solely for cybersecurity research, ethical hacking, and red team exercises with proper authorization. Any unauthorized activity is strictly prohibited.
 
